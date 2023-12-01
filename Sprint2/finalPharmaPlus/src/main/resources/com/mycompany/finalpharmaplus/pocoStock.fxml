@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="700.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.finalpharmaplus.pocoStock">
+   <children>
+      <Text layoutX="14.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Producto con menos de 20 Piezas en Existencia">
+         <font>
+            <Font name="Lucida Console" size="18.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="34.0" layoutY="111.0" prefHeight="468.0" prefWidth="680.0" style="-fx-border-style: solid; -fx-border-color: gray;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="115.0">
+         <children>
+            <TableView fx:id="tvProductos" layoutX="9.0" layoutY="9.0" prefHeight="453.0" prefWidth="664.0" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="8.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="62.0" prefWidth="700.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Button layoutX="613.0" layoutY="602.0" mnemonicParsing="false" text="Importar" />
+      <Button layoutX="536.0" layoutY="602.0" mnemonicParsing="false" text="Exportar" />
+      <Button layoutX="24.0" layoutY="29.0" mnemonicParsing="false" text="Mi perfil" />
+      <Button layoutX="99.0" layoutY="29.0" mnemonicParsing="false" onAction="#btnProductosOnAccion" text="Productos" />
+      <Button fx:id="bntCategorias" layoutX="197.0" layoutY="29.0" mnemonicParsing="false" onAction="#btnCategoriasOnAccion" text="Categorias" />
+      <Button layoutX="291.0" layoutY="27.0" mnemonicParsing="false" onAction="#btnPocoStockOnAccion" text="Poco Stock" />
+   </children>
+</AnchorPane>

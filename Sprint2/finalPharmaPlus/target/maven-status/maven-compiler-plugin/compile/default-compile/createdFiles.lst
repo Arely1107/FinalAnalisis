@@ -1,0 +1,16 @@
+com\mycompany\finalpharmaplus\productos.class
+com\mycompany\finalpharmaplus\productos$2.class
+com\mycompany\finalpharmaplus\VentasController.class
+Dao\ProductoDao.class
+Dao\CategoriaDao.class
+modelo\Venta.class
+conexion\ProbarConexion.class
+modelo\Categoria.class
+conexion\ConexionMysql.class
+com\mycompany\finalpharmaplus\App.class
+Dao\VentasDao.class
+com\mycompany\finalpharmaplus\categoria.class
+module-info.class
+com\mycompany\finalpharmaplus\pocoStock.class
+com\mycompany\finalpharmaplus\productos$1.class
+modelo\Producto.class

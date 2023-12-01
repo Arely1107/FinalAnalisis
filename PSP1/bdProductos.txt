@@ -1,0 +1,11 @@
+create database productos;
+ use productos;
+ 
+ create table producto(
+ id int not null primary Key auto_increment,
+ nombre varchar(50),
+ precio float,
+ stock int,
+ descripcion varchar(350),
+ categoria varchar(50)
+ );
